@@ -2,8 +2,8 @@ package providers
 
 import (
 	"database/sql"
-	"github.com/anggakes/gosvelte/src/backend/pkg/events"
-	"github.com/anggakes/gosvelte/src/backend/pkg/usecases/todo"
+	"gosvelteHex/src/backend/pkg/events"
+	"gosvelteHex/src/backend/pkg/usecases/todo"
 	_ "github.com/lib/pq"
 )
 

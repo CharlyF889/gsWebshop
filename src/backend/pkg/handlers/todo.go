@@ -2,8 +2,8 @@ package handlers
 
 import (
 	"fmt"
-	"github.com/anggakes/gosvelte/src/backend/pkg/models"
-	"github.com/anggakes/gosvelte/src/backend/pkg/usecases/todo"
+	"gosvelteHex/src/backend/pkg/models"
+	"gosvelteHex/src/backend/pkg/usecases/todo"
 	"github.com/labstack/echo/v4"
 	"net/http"
 	"strconv"

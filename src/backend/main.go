@@ -1,6 +1,6 @@
 package main
 
-import "github.com/anggakes/gosvelte/src/backend/cmd"
+import "gosvelteHex/src/backend/cmd"
 
 func main() {
 	cmd.Execute()

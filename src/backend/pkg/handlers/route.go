@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"github.com/anggakes/gosvelte/src/backend/pkg/providers"
+	"gosvelteHex/src/backend/pkg/providers"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 )

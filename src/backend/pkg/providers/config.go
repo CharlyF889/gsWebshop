@@ -13,10 +13,10 @@ type Config struct {
 func LoadConfig() *Config {
 	// set default
 	config := &Config{
-		DBPort:     "5432",
-		DBName:     "gosvelte",
-		DBUser:     "user",
-		DBPassword: "password",
+		DBPort:     "5440",
+		DBName:     "postgres",
+		DBUser:     "root",
+		DBPassword: "secret",
 		DBHost:     "localhost",
 	}
 	if err := viper.Unmarshal(config); err != nil {

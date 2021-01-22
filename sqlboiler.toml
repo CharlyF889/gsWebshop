@@ -4,9 +4,9 @@ pkgname  = "dbmodels"
 [psql]
   dbname = "gosvelte"
   host   = "localhost"
-  port   = 5432
-  user   = "user"
-  pass   = "password"
+  port   = 5450
+  user   = "root"
+  pass   = "secret"
   sslmode = "disable"
   schema = "public"
   blacklist = [

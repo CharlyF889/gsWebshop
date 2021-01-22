@@ -1,8 +1,11 @@
 package cmd
 
 import (
-	"github.com/anggakes/gosvelte/src/backend/pkg/handlers"
-	"github.com/anggakes/gosvelte/src/backend/pkg/providers"
+	"fmt"
+
+	"gosvelteHex/src/backend/pkg/handlers"
+	"gosvelteHex/src/backend/pkg/providers"
+
 	"github.com/labstack/echo/v4"
 	"github.com/spf13/cobra"
 )
@@ -16,6 +19,7 @@ var versionCmd = &cobra.Command{
 	Short: "Run backend service",
 	Long:  `run backend service`,
 	Run: func(cmd *cobra.Command, args []string) {
+		fmt.Println("backend service is running")
 
 		e := echo.New()
 

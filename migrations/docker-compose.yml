@@ -3,11 +3,11 @@ services:
   migration:
     build: .
     environment:
-    - POSTGRES_DB=gosvelte
-    - POSTGRES_USER=user
-    - POSTGRES_PASSWORD=password
-    - POSTGRES_HOST=docker.for.mac.localhost
-    - POSTGRES_PORT=5432
+    - POSTGRES_DB=postgres
+    - POSTGRES_USER=root
+    - POSTGRES_PASSWORD=secret
+    - POSTGRES_HOST=localhost
+    - POSTGRES_PORT=5440
     volumes:
     - .:/app/
     command: ["sh", "-c", "python manage.py makemigrations db && python manage.py migrate db"]

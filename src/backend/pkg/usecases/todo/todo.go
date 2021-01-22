@@ -3,9 +3,9 @@ package todo
 import (
 	"context"
 	"database/sql"
-	"github.com/anggakes/gosvelte/src/backend/dbmodels"
-	"github.com/anggakes/gosvelte/src/backend/pkg/events"
-	"github.com/anggakes/gosvelte/src/backend/pkg/models"
+	"gosvelteHex/src/backend/dbmodels"
+	"gosvelteHex/src/backend/pkg/events"
+	"gosvelteHex/src/backend/pkg/models"
 	"github.com/pkg/errors"
 	"github.com/ulule/deepcopier"
 	"github.com/volatiletech/sqlboiler/v4/boil"
